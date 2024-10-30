@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+html,body{
+    min-height: 100%;
+    width: 100%;
+}
+
+.page1{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgb(255, 115, 0),rgba(2, 117, 2, 0.788),rgba(255, 0, 119, 0.664));
+}
+
+#chakra{
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    transform: translate(-50%,-50%);
+
+}
+
+#chakra img{
+    height: 400px;
+    width: 400px;
+    animation: chakraspin 10s linear infinite;
+    /* animation-timeline: view(); */
+}
+
+@keyframes chakraspin {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+
+#text{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    
+}
+
+#text h1{
+    font-size: 60px;
+}
+
+#text p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+#img-top{
+    position: absolute;
+    top: -20%;
+    right: -40%;
+}
+
+#deepak-1{
+    position: inherit;
+    top: 2rem;
+    right: 13rem;
+
+}
+
+#hanger{
+    position: absolute;
+    top: 0%;
+    right: -10%;
+    height: 300px;
+    width: 100px;
+}
+
+#honey{
+   height: 100px;
+   width: 100px;
+}
+
+#btn{
+    margin-top: 3rem;
+}
+
+#btn button{
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgb(241, 241, 241);
+}
+
+#btn button:hover{
+    background: none;
+    border: 2px solid white;
+    color: white;
+}
+
+#btn #blessings{
+    background: none;
+    border: 2px solid white;
+    margin-left: 2rem;
+}
+
+#btn #blessings:hover{
+    background: green;
+}
+
+#deepak-2{
+    position: absolute;
+    bottom: 0%;
+    left: 45%;
+    height: 180px;
+    width: 190px;
+}
+
+#laddu-2{
+    position: absolute;
+    bottom: 0%;
+    left: 60%;
+    height: 180px;
+    width: 190px;
+}
+
+#laddu-1{
+    position: absolute;
+    bottom: 0%;
+    left: 75%;
+    height: 180px;
+    width: 190px;
+}
+
+#honey{
+    position: absolute;
+    bottom: 20%;
+    right: 1.5%;
+    transform: rotate(-10deg);
+    height: 200px;
+    width: 200px;
+}
+
+
+.page2{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(255, 230, 0, 0.596),rgb(255, 0, 21),rgb(224, 224, 224));
+    /* overflow: hidden; */
+}
+
+#one{
+    position: absolute;
+    bottom: 5%;
+    left: 13.5%;
+    height: 500px;
+    width: 500px;
+}
+
+#two{
+    position: absolute;
+    bottom: 5%;
+    left: 6.5%;
+    height: 600px;
+    width: 700px;
+}
+
+#chakra-pink{
+    position: absolute;
+    top: 50%;
+    right: 25%;
+    transform: translate(50%,-50%);
+}
+
+#chakra-pink img{
+    height: 400px;
+    width: 400px;
+    animation: chakrapink;
+    animation-timeline: view();
+}
+
+@keyframes chakrapink{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+
+
+.page3{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(255, 0, 119, 0.664),rgba(2, 117, 2, 0.788),rgba(255, 0, 119, 0.664));
+}
